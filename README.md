@@ -231,7 +231,7 @@ The next step is to install your environment variables at the system level, not 
    1. `PUMP_FIELDS` controls which fields you want in the Pump pillbox and includes things like the reservoir and battery levels
    1. `ENABLE` explicitly calls out which features to enable for the user
    1. `API_SECRET` is required to be set to allow an uploader device use the REST API to add data to Nightscout (directly writing to MongoDB isn't supported)
-   1. `MONGO` is the database connection string and is required for Nightscout to retrieve your data
+   1. `MONGO_CONNECTION` is the database connection string and is required for Nightscout to retrieve your data
    1. `PORT` is the port the system will listen on, commonly 80 for HTTP
 
 ```
